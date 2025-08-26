@@ -18,6 +18,22 @@
   margin-right: calc(50% - 50vw);
 }
 
+@layer utilities {
+  /* show only on lemonade theme AND small screens (< md) */
+  .show-on-lemonade-sm { display: none; }
+  [data-theme="lemonade"] .show-on-lemonade-sm { display: block; }
+  @media (min-width: 768px) {
+    [data-theme="lemonade"] .show-on-lemonade-sm { display: none; }
+  }
+
+  /* hide only on lemonade theme AND small screens (< md) */
+  .hide-on-lemonade-sm { display: block; }
+  [data-theme="lemonade"] .hide-on-lemonade-sm { display: none; }
+  @media (min-width: 768px) {
+    [data-theme="lemonade"] .hide-on-lemonade-sm { display: block; }
+  }
+}
+
 
 
 /* :root {

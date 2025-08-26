@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import headShot from '../assets/headShot.png';
 import linkedInLogo from '../assets/LinkedIn_logo.png';
 import githubLogo from '../assets/Github_logo.png';
+import githubLogoDark from '../assets/Github_logo_dark.png';
 import { NavLink } from 'react-router-dom';
 
 
@@ -106,7 +107,25 @@ export default function Home() {
                   title="GitHub"
                   className="opacity-90 hover:opacity-100 transition-opacity"
                 >
-                  <img src={githubLogo} alt="GitHub" className="h-7 w-7 md:h-8 md:w-8 object-contain transition-transform duration-200 hover:scale-110" />
+                  {/* <img src={githubLogo} alt="GitHub" className="h-7 w-7 md:h-8 md:w-8 object-contain transition-transform duration-200 hover:scale-110" /> */}
+                  <img
+                    src={githubLogo}
+                    alt="GitHub"
+                    className="
+                      h-7 w-7 md:h-8 md:w-8 object-contain
+                      transition-transform duration-200 hover:scale-110
+                      hide-on-lemonade-sm
+                    "
+                  />
+                  <img
+                    src={githubLogoDark}
+                    alt="GitHub (dark)"
+                    className="
+                      h-7 w-7 md:h-8 md:w-8 object-contain
+                      transition-transform duration-200 hover:scale-110
+                      show-on-lemonade-sm
+                    "
+                  />
                 </a>
               </div>
             </div>

@@ -88,7 +88,7 @@ export default function About() {
           <div className="flex flex-wrap gap-3">
             <NavLink to="/projects" className="btn btn-primary">View Projects</NavLink>
             {/* <NavLink to="/contact" className="btn btn-secondary">Contact</NavLink> */}
-            <a href="public/Yaniel_Gonzalez_Resume.pdf" className="btn btn-accent" target="_blank" rel="noreferrer">Résumé</a>
+            <a href="/YANIEL_GONZALEZ_RESUME.pdf" className="btn btn-accent" target="_blank" rel="noreferrer">Resume</a>
           </div>
         </div>
       </div>

@@ -12,5 +12,10 @@ export default {
   daisyui: {
     themes: ["lemonade", "forest"],
   },
+
+  safelist: [
+    '[data-theme=lemonade]:block',
+    '[data-theme=lemonade]:hidden'
+  ],
 }
 
