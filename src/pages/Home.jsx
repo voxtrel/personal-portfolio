@@ -126,8 +126,8 @@ export default function Home() {
                 <div className="mt-5 flex flex-wrap gap-3">
                   <NavLink to="/projects" className="btn btn-primary shadow">Projects</NavLink>
                   <NavLink to="/about" className="btn btn-secondary shadow">About me</NavLink>
-                  <a href="public/Yaniel_Gonzalez_Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-accent">
-                    Résumé
+                  <a href="/YANIEL_GONZALEZ_RESUME.pdf" target="_blank" rel="noreferrer" className="btn btn-accent">
+                    Resume
                   </a>
                 </div>
 
